@@ -18,9 +18,10 @@ namespace example1
 
         }
 
-        public static int Addnumbers(int a, int b)
+        //Funcionalidad cambiada a resta y nombre de función actualizado
+        public static int SubstractNumbers(int a, int b)
         {
-            return a + b;
+            return a - b;
 
         }
         
