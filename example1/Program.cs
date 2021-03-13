@@ -14,7 +14,7 @@ namespace example1
             Console.WriteLine("Enter a value for b: ");
             b = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"Adding {a} * {b} equals {Addnumbers(a, b)}");
+            Console.WriteLine($"Substracting {a} * {b} equals {SubstractNumbers(a, b)}");
 
         }
 
