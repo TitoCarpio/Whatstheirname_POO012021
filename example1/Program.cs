@@ -14,14 +14,14 @@ namespace example1
             Console.WriteLine("Enter a value for b: ");
             b = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"Substracting {a} * {b} equals {SubstractNumbers(a, b)}");
+            Console.WriteLine($"Multiplying {a} * {b} equals {MultiplicationNumbers(a, b)}");
 
         }
 
-        //Funcionalidad cambiada a resta y nombre de función actualizado
-        public static int SubstractNumbers(int a, int b)
+        //Funcionalidad cambiada a multiplicacion y nombre de función actualizado
+        public static int MultiplicationNumbers(int a, int b)
         {
-            return a - b;
+            return a * b;
 
         }
         
